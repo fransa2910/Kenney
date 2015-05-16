@@ -38,6 +38,26 @@
     <sprite>sprites\cakeCenter</sprite>
     <sprite>sprites\spr_cakeCenter_rounded</sprite>
     <sprite>sprites\spr_cakeCliffLeft</sprite>
+    <sprite>sprites\spr_cakeCliffLeftAlt</sprite>
+    <sprite>sprites\spr_cakeCliffRight</sprite>
+    <sprite>sprites\spr_cakeCliffRightAlt</sprite>
+    <sprite>sprites\spr_cakeHalf</sprite>
+    <sprite>sprites\spr_cakeHalfAlt</sprite>
+    <sprite>sprites\spr_cakeHalfAltMid</sprite>
+    <sprite>sprites\spr_cakeHalfAltLeft</sprite>
+    <sprite>sprites\spr_cakeHalfAltRight</sprite>
+    <sprite>sprites\spr_cakeHalfLeft</sprite>
+    <sprite>sprites\spr_cakeHalfMid</sprite>
+    <sprite>sprites\spr_cakeHalfRight</sprite>
+    <sprite>sprites\spr_cakeHillLeft</sprite>
+    <sprite>sprites\spr_cakeHillLeft2</sprite>
+    <sprite>sprites\spr_cakeHillRight</sprite>
+    <sprite>sprites\spr_cakeHillRight2</sprite>
+    <sprite>sprites\spr_cakeLedgeLeft</sprite>
+    <sprite>sprites\spr_cakeLedgeRight</sprite>
+    <sprite>sprites\spr_cakeMid</sprite>
+    <sprite>sprites\spr_cakeRight</sprite>
+    <sprite>sprites\spr_candyBlue</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_clouds</background>
@@ -83,6 +103,26 @@
       <object>objects\obj_cakeCenter</object>
       <object>objects\obj_cakeCenter_rounded</object>
       <object>objects\obj_cakeCliffLeft</object>
+      <object>objects\obj_cakeCliffLeftAlt</object>
+      <object>objects\obj_cakeCliffRight</object>
+      <object>objects\obj_cakeCliffRightAlt</object>
+      <object>objects\obj_cakeHalf</object>
+      <object>objects\obj_cakeHalfAlt</object>
+      <object>objects\obj_cakeHalfAltMid</object>
+      <object>objects\obj_cakeHalfAltLeft</object>
+      <object>objects\obj_cakeHalfAltRight</object>
+      <object>objects\obj_cakeHalfLeft</object>
+      <object>objects\obj_cakeHalfMid</object>
+      <object>objects\obj_cakeHalfRight</object>
+      <object>objects\obj_cakeHillLeft</object>
+      <object>objects\obj_cakeHillLeft2</object>
+      <object>objects\obj_cakeHillRight</object>
+      <object>objects\obj_cakeHillRight2</object>
+      <object>objects\obj_cakeLedgeLeft</object>
+      <object>objects\obj_cakeLedgeRight</object>
+      <object>objects\obj_cakeMid</object>
+      <object>objects\obj_cakeRight</object>
+      <object>objects\obj_candyBlue</object>
     </objects>
   </objects>
   <rooms name="rooms">
