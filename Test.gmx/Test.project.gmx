@@ -32,6 +32,7 @@
       <sprite>sprites\spr_hillSmall2</sprite>
       <sprite>sprites\spr_plant</sprite>
       <sprite>sprites\spr_enemySnail</sprite>
+      <sprite>sprites\spr_checkpoint</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -65,12 +66,14 @@
       <object>objects\obj_hillSmall2</object>
       <object>objects\obj_plant</object>
       <object>objects\obj_enemySnail</object>
+      <object>objects\obj_checkpoint</object>
     </objects>
     <object>objects\obj_solid</object>
     <object>objects\obj_enemy</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_world1</room>
+    <room>rooms\rm_initialize</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

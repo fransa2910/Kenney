@@ -76,6 +76,7 @@ if (place_meeting(x, y+1, obj_solid)) {
 //if the player has a solid object below, it will either
 //stay in place (vertically) or jump upwards.
     vsp = jumpKey * - jumpSpeed;
+   
 }
 
 //Horizontal collision
