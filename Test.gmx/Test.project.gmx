@@ -35,6 +35,9 @@
       <sprite>sprites\spr_checkpoint</sprite>
     </sprites>
     <sprite>sprites\sprite26</sprite>
+    <sprite>sprites\cakeCenter</sprite>
+    <sprite>sprites\spr_cakeCenter_rounded</sprite>
+    <sprite>sprites\spr_cakeCliffLeft</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_clouds</background>
@@ -76,7 +79,10 @@
     <object>objects\obj_enemy</object>
     <object>objects\obj_draw</object>
     <objects name="World2">
-      <object>objects\obj_grassCandy</object>
+      <object>objects\obj_cake</object>
+      <object>objects\obj_cakeCenter</object>
+      <object>objects\obj_cakeCenter_rounded</object>
+      <object>objects\obj_cakeCliffLeft</object>
     </objects>
   </objects>
   <rooms name="rooms">
