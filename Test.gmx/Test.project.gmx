@@ -58,6 +58,27 @@
     <sprite>sprites\spr_cakeMid</sprite>
     <sprite>sprites\spr_cakeRight</sprite>
     <sprite>sprites\spr_candyBlue</sprite>
+    <sprite>sprites\spr_candyGreen</sprite>
+    <sprite>sprites\spr_candyRed</sprite>
+    <sprite>sprites\pr_candyYellow</sprite>
+    <sprite>sprites\spr_canePink</sprite>
+    <sprite>sprites\spr_canePinkSmall</sprite>
+    <sprite>sprites\spr_canePinkTop</sprite>
+    <sprite>sprites\spr_canePinkTopAlt</sprite>
+    <sprite>sprites\spr_choco</sprite>
+    <sprite>sprites\spr_chocoCenter</sprite>
+    <sprite>sprites\spr_chocoCenter_rounded</sprite>
+    <sprite>sprites\spr_chocoCliffLeft</sprite>
+    <sprite>sprites\spr_chocoCliffLeftAlt</sprite>
+    <sprite>sprites\spr_chocoCliffRight</sprite>
+    <sprite>sprites\spr_chocoCliffRightAlt</sprite>
+    <sprite>sprites\spr_chocoHalf</sprite>
+    <sprite>sprites\spr_chocoHalfAlt</sprite>
+    <sprite>sprites\spr_chocoHalfAltLeft</sprite>
+    <sprite>sprites\spr_chocoHalfAltMid</sprite>
+    <sprite>sprites\spr_chocoHalfAltRight</sprite>
+    <sprite>sprites\spr_chocoHalfLeft</sprite>
+    <sprite>sprites\spr_chocoHalfMid</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_clouds</background>
@@ -123,6 +144,27 @@
       <object>objects\obj_cakeMid</object>
       <object>objects\obj_cakeRight</object>
       <object>objects\obj_candyBlue</object>
+      <object>objects\obj_candyGreen</object>
+      <object>objects\obj_candyRed</object>
+      <object>objects\obj_candyYellow</object>
+      <object>objects\obj_canePink</object>
+      <object>objects\obj_canePinkSmall</object>
+      <object>objects\obj_canePinkTop</object>
+      <object>objects\obj_canePinkTopAlt</object>
+      <object>objects\obj_choco</object>
+      <object>objects\obj_chocoCenter</object>
+      <object>objects\obj_chocoCenter_rounded</object>
+      <object>objects\obj_chocoCliffLeft</object>
+      <object>objects\obj_chocoCliffLeftAlt</object>
+      <object>objects\obj_chocoCliffRight</object>
+      <object>objects\obj_chocoCliffRightAlt</object>
+      <object>objects\obj_chocoHalf</object>
+      <object>objects\obj_chocoHalfAlt</object>
+      <object>objects\obj_chocoHalfAltLeft</object>
+      <object>objects\obj_chocoHalfAltMid</object>
+      <object>objects\obj_chocoHalfAltRight</object>
+      <object>objects\obj_chocoHalfLeft</object>
+      <object>objects\obj_chocoHalfMid</object>
     </objects>
   </objects>
   <rooms name="rooms">
