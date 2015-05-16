@@ -34,9 +34,13 @@
       <sprite>sprites\spr_enemySnail</sprite>
       <sprite>sprites\spr_checkpoint</sprite>
     </sprites>
+    <sprite>sprites\sprite26</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_clouds</background>
+    <backgrounds name="bg_world2">
+      <background>background\bg_candy</background>
+    </backgrounds>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
@@ -71,11 +75,20 @@
     <object>objects\obj_solid</object>
     <object>objects\obj_enemy</object>
     <object>objects\obj_draw</object>
+    <objects name="World2">
+      <object>objects\obj_grassCandy</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_initialize</room>
     <room>rooms\rm_world1</room>
     <room>rooms\rm_test</room>
+    <room>rooms\rm1_world1</room>
+    <room>rooms\rm2_world1</room>
+    <room>rooms\room5</room>
+    <rooms name="rm_world2">
+      <room>rooms\rm_candy</room>
+    </rooms>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
