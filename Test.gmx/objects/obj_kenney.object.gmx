@@ -65,8 +65,15 @@ jumpKey = keyboard_check_pressed(vk_space);
 
 
 //React to input
-move = rightKey + leftKey;
+if(obj_kenney.x + (obj_kenney.sprite_width/2) - moveSpeed &lt; 5) {
+     obj_kenney.x += moveSpeed;
+} 
+if(obj_kenney.x + (obj_kenney.sprite_width/2) + moveSpeed &gt; (room_width - 5)) {
+    obj_kenney.x -= moveSpeed;
+}   
+move = rightKey + leftKey;  
 hsp = move * moveSpeed;
+
 if(restart) {
     game_restart();
 }
@@ -98,7 +105,10 @@ if(place_meeting(x, y+vsp, obj_solid)) {
     }    
     vsp = 0;
 }
+
 y += vsp;
+
+
 
 if(hsp &lt; 0) {
     image_speed = 10;
