@@ -70,6 +70,7 @@
     </objects>
     <object>objects\obj_solid</object>
     <object>objects\obj_enemy</object>
+    <object>objects\obj_draw</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_world1</room>

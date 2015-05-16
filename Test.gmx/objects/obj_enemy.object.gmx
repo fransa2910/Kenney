@@ -77,7 +77,7 @@ y += vsp;
 
 //Player interaction
 if(place_meeting(x,y,obj_kenney)) {
-    if(obj_kenney.y &lt; self.y/2) {
+    if(obj_kenney.y - obj_kenney.sprite_height &lt; self.y) {
         with (obj_kenney) vsp = -jumpSpeed;
         instance_destroy();
     } else {
