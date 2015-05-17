@@ -81,7 +81,55 @@
       <sprite>sprites\sprite26</sprite>
       <sprite>sprites\spr_chocoHalfRight</sprite>
       <sprite>sprites\spr_chocoHalfMid</sprite>
+      <sprite>sprites\spr_chocoHillLeft2</sprite>
+      <sprite>sprites\spr_chocoHillLeft</sprite>
+      <sprite>sprites\spr_chocoHillRight</sprite>
+      <sprite>sprites\spr_chocoHillRight2</sprite>
+      <sprite>sprites\spr_chocoLedgeLeft</sprite>
+      <sprite>sprites\spr_chocoLedgeRight</sprite>
+      <sprite>sprites\spr_chocoLeft</sprite>
+      <sprite>sprites\spr_chocoMid</sprite>
+      <sprite>sprites\spr_chocoRight</sprite>
+      <sprite>sprites\spr_cookieBrown</sprite>
+      <sprite>sprites\spr_cookieChoco</sprite>
+      <sprite>sprites\spr_cookiePink</sprite>
+      <sprite>sprites\spr_creamChoco</sprite>
+      <sprite>sprites\spr_creamMocca</sprite>
+      <sprite>sprites\spr_creamPink</sprite>
+      <sprite>sprites\spr_creamVanilla</sprite>
+      <sprite>sprites\spr_cupCake</sprite>
+      <sprite>sprites\spr_gummyWormGreenEnd</sprite>
+      <sprite>sprites\spr_gummyWormGreenMid</sprite>
+      <sprite>sprites\spr_gummyWormGreenHead</sprite>
+      <sprite>sprites\spr_gummyWormRedEnd</sprite>
+      <sprite>sprites\spr_gummyWormRedMid</sprite>
+      <sprite>sprites\spr_gummyWormRedHead</sprite>
+      <sprite>sprites\spr_hillCaneChoco</sprite>
+      <sprite>sprites\spr_heart</sprite>
+      <sprite>sprites\spr_hillCaneChocoTop</sprite>
+      <sprite>sprites\spr_hillCaneGreen</sprite>
+      <sprite>sprites\spr_hillCaneGreenTop</sprite>
+      <sprite>sprites\spr_hillCanePinkTop</sprite>
+      <sprite>sprites\spr_hillCaneRed</sprite>
+      <sprite>sprites\spr_hillCaneRedTop</sprite>
+      <sprite>sprites\spr_lollipopBase</sprite>
+      <sprite>sprites\spr_hillCanePink</sprite>
+      <sprite>sprites\spr_lollipopBasePink</sprite>
+      <sprite>sprites\spr_lollipopBaseBeige</sprite>
+      <sprite>sprites\spr_lollipopFruitGreen</sprite>
+      <sprite>sprites\spr_lollipopFruitRed</sprite>
+      <sprite>sprites\spr_lollipopGreen</sprite>
+      <sprite>sprites\spr_lollipopRed</sprite>
+      <sprite>sprites\spr_lollipopFruitYellow</sprite>
+      <sprite>sprites\spr_lollipopWhiteRed</sprite>
+      <sprite>sprites\spr_waffleChoco</sprite>
+      <sprite>sprites\spr_wafflePink</sprite>
+      <sprite>sprites\spr_lollipopBaseCake</sprite>
+      <sprite>sprites\spr_waffleWhite</sprite>
+      <sprite>sprites\spr_lollipopBaseBrown</sprite>
+      <sprite>sprites\spr_lollipopWhiteGreen</sprite>
     </sprites>
+    <sprite>sprites\sprite119</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_clouds</background>
@@ -169,18 +217,64 @@
       <object>objects\obj_chocoHalfLeft</object>
       <object>objects\obj_chocoHalfMid</object>
       <object>objects\obj_chocoHalfRight</object>
+      <object>objects\obj_chocoHillLeft</object>
+      <object>objects\obj_chocoHillLeft2</object>
+      <object>objects\obj_chocoHillRight</object>
+      <object>objects\obj_chocoHillRight2</object>
+      <object>objects\obj_chocoLedgeLeft</object>
+      <object>objects\obj_chocoLedgeRight</object>
+      <object>objects\obj_chocoLeft</object>
+      <object>objects\obj_chocoMid</object>
+      <object>objects\obj_chocoRight</object>
+      <object>objects\obj_cookieBrown</object>
+      <object>objects\obj_cookieChoco</object>
+      <object>objects\obj_cookiePink</object>
+      <object>objects\obj_creamChoco</object>
+      <object>objects\obj_creamMocca</object>
+      <object>objects\obj_creamPink</object>
+      <object>objects\obj_creamVanilla</object>
+      <object>objects\obj_cupCake</object>
+      <object>objects\obj_gummyWormGreenEnd</object>
+      <object>objects\obj_gummyWormGreenHead</object>
+      <object>objects\obj_gummyWormGreenMid</object>
+      <object>objects\obj_gummyWormRedEnd</object>
+      <object>objects\obj_gummyWormRedHead</object>
+      <object>objects\obj_gummyWormRedMid</object>
+      <object>objects\obj_heart</object>
+      <object>objects\obj_hillCaneChoco</object>
+      <object>objects\obj_hillCaneChocoTop</object>
+      <object>objects\obj_hillCaneGreen</object>
+      <object>objects\obj_hillCaneGreenTop</object>
+      <object>objects\obj_hillCanePink</object>
+      <object>objects\obj_hillCanePinkTop</object>
+      <object>objects\obj_hillCaneRed</object>
+      <object>objects\obj_hillCaneRedTop</object>
+      <object>objects\obj_lollipopBase</object>
+      <object>objects\obj_lollipopBaseBeige</object>
+      <object>objects\obj_lollipopBaseBrown</object>
+      <object>objects\obj_lollipopBaseCake</object>
+      <object>objects\obj_lollipopBasePink</object>
+      <object>objects\obj_lollipopFruitGreen</object>
+      <object>objects\obj_lollipopFruitRed</object>
+      <object>objects\obj_lollipopFruitYellow</object>
+      <object>objects\obj_lollipopGreen</object>
+      <object>objects\obj_lollipopRed</object>
+      <object>objects\obj_lollipopWhiteGreen</object>
+      <object>objects\obj_lollipopWhiteRed</object>
+      <object>objects\obj_waffleChoco</object>
+      <object>objects\obj_wafflePink</object>
+      <object>objects\obj_waffleWhite</object>
+      <object>objects\object122</object>
     </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_initialize</room>
+    <room>rooms\rm_candy</room>
     <room>rooms\rm_world1</room>
     <room>rooms\rm_test</room>
     <room>rooms\rm1_world1</room>
     <room>rooms\rm2_world1</room>
     <room>rooms\room5</room>
-    <rooms name="rm_world2">
-      <room>rooms\rm_candy</room>
-    </rooms>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
